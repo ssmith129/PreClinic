@@ -1,0 +1,919 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="Preclinic - Multi Vendor Ecommerce System.">
+	<meta name="author" content="dreamstechnologies">
+
+	<title>Preclinic - Online Documentation.</title>
+
+	<!-- App favicon -->
+	<link rel="shortcut icon" href="assets/img/logo/favicon.png">
+
+	<!-- Vendor -->
+	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/prism.css" rel="stylesheet">
+
+	<!-- Fontawesome CSS -->
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/fontawesome.min.css">
+	<link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css">
+	
+	<link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+	<!-- Main CSS -->
+	<link id="mainCss" href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	<main class="wrapper sb-default">
+		<!-- Loader -->
+		<div id="loader-wrapper">
+			<div class="loader-ellipsis">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+			</div>
+		</div>
+
+		<!-- Header -->
+		<header class="header">
+			<div class="container-fluid">
+				<div class="header-left">
+					<div class="left-header me-2">
+						<a href="javascript:void(0)" class="sidebar-toggle">
+							<span class="outer-ring">
+								<span class="inner-ring"></span>
+							</span>
+						</a>
+					</div>
+					<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+						<li><a href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503/support" target="_blank" class="nav-link px-2 link-body-emphasis"><i class="fa-solid fa-headset me-2"></i>Support</a></li>
+						<li><a href="https://calendly.com/dreamstechnologies" class="nav-link px-2 link-body-emphasis" target="_blank"><i class="fa-brands fa-hire-a-helper me-2"></i>Hire Us</a></li>
+						<li><a href="https://themeforest.net/user/dreamstechnologies" class="nav-link px-2 link-body-emphasis" target="_blank"><i class="fa-brands fa-hire-a-helper me-2"></i>Our Envato</a></li>
+					</ul> 
+					
+					<div class="right-header">
+						<div class="me-2 header-item theme-light">
+							<button type="button" class="btn-topbar tools-item mode" data-bs-theme-tool="light">
+								<span class="feather-icon"><i data-feather="moon"></i></span>
+							</button>
+						</div>
+						<div class="me-2 header-item theme-dark">
+							<button type="button" class="btn-topbar tools-item mode active" data-bs-theme-tool="dark">
+								<span class="feather-icon"><i data-feather="sun"></i></span>
+							</button>
+						</div>
+					</div>
+					<div class="text-end">
+						<a href="https://preclinic.dreamstechnologies.com/" target="_blank" class="btn btn-white btn-sm me-2"><i class="fa-solid fa-link me-2"></i>Live Demo</a>
+						<a href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503" class="btn btn-primary btn-sm" target="_blank"><i class="fa-solid fa-cart-plus me-2"></i>Buy Now</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		
+
+         <div class="doc-progress">
+           <div class="doc-progress-inner" id="scrollProgress">
+
+           </div>
+         </div>
+		 
+		<div class="sidebar-overlay"></div>
+		<div class="sidebar" data-mode="light">
+			<div class="sidebar-logo">
+				<a href="index.html" class="sb-full"><img src="assets/img/logo/logo.png" alt="logo"><span class="badge badge-soft-danger fs-14 ms-1">Angular</span></a>
+				<a href="index.html" class="sb-collapse"><img src="assets/img/logo/favicon.png" alt="logo"></a>
+			</div>
+			 <div class="sidebar-inner">
+				 <div class="sidebar-menu">
+				   <ul id="menu-main-menu" class="sidebar-nav">
+						<li class="menu-item submenu">
+							<a href="#instructions" class="active menu-link">
+								<span class="feather-icon"><i data-feather="box"></i></span>
+								<span class="condense">Getting Started</span>
+							</a>
+							<ul class="sidebar-dropdown condense active">
+								<li>
+									<a href="#instructions" class="page-link drop">
+										<span class="menu-dash"><span></span></span>Introduction
+									</a>
+								</li>
+								<li><a href="#requirement" class="page-link drop"><span class="menu-dash"><span></span></span>Requirement</a></li>
+								<li><a href="#features" class="page-link drop"><span class="menu-dash"><span></span></span>Features</a></li>
+								<li><a href="#file_structure" class="page-link drop"><span class="menu-dash"><span></span></span>File Structure</a></li>
+							</ul>
+						</li>
+						<li class="menu-item-separator"></li>
+						<li class="menu-title condense">Configuration</li>
+						<li class="menu-item">
+							<a href="#local_server" class="page-link">
+								<span class="feather-icon"><i data-feather="pie-chart"></i></span>
+								<span class="condense">Installation</span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#rtl_mode" class="page-link">
+								<span class="feather-icon"><i data-feather="align-right"></i></span>
+								<span class="condense">RTL Version</span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#dark_mode" class="page-link">
+								<span class="feather-icon"><i data-feather="moon"></i></span>
+								<span class="condense">Dark Mode</span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#change_logo" class="page-link">
+								<span class="feather-icon"><i data-feather="command"></i></span><span class="condense"><span class="hover-title">Change Logo</span> </span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#change_font" class="page-link">
+								<span class="feather-icon"><i data-feather="shield"></i></span><span class="condense"><span class="hover-title">Change Font</span> </span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#change_color" class="page-link">
+								<span class="feather-icon"><i data-feather="aperture"></i></span><span class="condense"><span class="hover-title">Change Color</span> </span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#typography" class="page-link">
+								<span class="feather-icon"><i data-feather="type"></i></span><span class="condense"><span class="hover-title">Typography</span> </span>
+							</a>
+						</li>
+						<li class="menu-item-separator"></li>
+						<li class="menu-title condense">Info</li>
+						<li class="menu-item">
+							<a href="#faq" class="page-link">
+								<span class="feather-icon"><i data-feather="star"></i></span><span class="condense"><span class="hover-title">FAQs</span> </span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#support" class="page-link">
+								<span class="feather-icon"><i data-feather="star"></i></span><span class="condense"><span class="hover-title">Support</span> </span>
+							</a>
+						</li>
+						<li class="menu-item  submenu">
+							<a href="#license" class="page-link">
+								<span class="feather-icon"><i data-feather="command"></i></span><span class="condense"><span class="hover-title">License & Credits</span> </span>
+							</a>
+							<ul class="sidebar-dropdown condense">
+								<li><a href="#license" class="page-link drop"><span class="menu-dash"><span></span></span>License</a></li>
+								<li><a href="#credits" class="page-link drop"><span class="menu-dash"><span></span></span>Credits
+								</a></li>
+							</ul>
+						</li>
+						<li class="menu-item">
+							<a href="#customwork" class="page-link">
+								<span class="feather-icon"><i data-feather="briefcase"></i></span><span class="condense"><span class="hover-title">Custom Work</span> </span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="changelog.html" class="page-link">
+								<span class="feather-icon"><i data-feather="hexagon"></i></span>
+								<span class="condense"><span class="hover-title">Change Log</span> </span>
+								<span class="badge badge-changelog badge-soft-danger fw-semibold fs-8 px-2 ms-2 condense">v1.6.9</span>
+							</a>
+						</li>
+						<li class="menu-item">
+							<a href="#thanks" class="page-link">
+								<span class="feather-icon"><i data-feather="smile"></i></span><span class="condense"><span class="hover-title">Thank
+										You</span> </span>
+							</a>
+						</li>
+				   </ul>
+				 </div>
+			 </div>
+         </div>
+		<!-- main content -->
+		<div class="main-content">
+			<div class="container-fluid">
+				<!-- Page title & breadcrumb -->
+				<div class="page-title">
+					<div class="breadcrumb">
+						<h1>Getting Started</h1>
+						<ul>
+							<li><a href="index.html">Preclinic</a></li>
+							<li>Getting Started</li>
+						</ul>
+					</div>
+				</div>
+				<div class="row sections">
+					<div class="col-xl-12 col-md-12">
+						<!-- Introduction -->
+						<section class="section-block hentry" id="instructions">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">Introduction<a class="anchor-link ms-2" href="#instructions"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="#" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span>
+										</a>
+									</div>
+								</div>
+								<div class="card-body">
+									<div class="intro">
+										<div class="item-details mb-3">
+										<div class="row">
+										<div class="col-md-6">
+										<ul class="auth-detail">
+											<li><strong>Item Name : </strong>Preclinic - Hospital, Medical, Clinic Admin Dashboard Template</li>
+											<li><strong>Published: </strong>8 February 2019</li>
+											<li><strong>Item Version : </strong><span class="badge badge-changelog badge-soft-danger fw-semibold fs-8 px-2 ms-2">v1.6.9</span></li>
+											<li><strong>Author : </strong><a target="_blank" href="https://dreamstechnologies.com">Dreams Technologies</a></li>
+											<li>Support via email: <a href="mailto:support@dreamstechnologies.com">support@dreamstechnologies.com</a></li>
+											<li>Support via Themeforest: <a target="_blank" href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503/support">Take me there</a></li>
+										</ul>
+										</div>
+										<div class="col-md-6">
+											<a class="gallery-thumb" href="assets/img/banners/banner.jpg">
+												<img src="assets/img/banners/banner.jpg" class="img-fluid" alt="Preclinic Banner">
+											</a>
+										</div>
+										</div>
+										</div>
+										<h5>
+											<a href="#" class="pro-thumbnail me-2" target="_blank">
+												<img src="assets/img/banners/thumbnail.png" class="img-fluid" alt="Preclinic Thumbnail">
+											</a> Preclinic - Hospital, Medical, Clinic Admin Dashboard Template.
+										</h5>
+											<p>Preclinic is a well designed fully responsive admin template that makes the web administration process easier than ever. It is equipped with various functionalities and is platform compatible.</p>
+										
+									</div>
+									<a href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503/support" class="btn btn-primary rounded-pill me-2" target="_blank">Contact Support</a>
+									<a href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503/support" class="btn btn-soft-primary rounded-pill" target="_blank" rel="noreferrer">Create Support ticket</a>
+								</div>
+							</div>
+						</section>
+						<!-- Core Features -->
+						
+						
+						<section class="section-block hentry" id="requirement">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">Requirement</h4>
+									<div class="header-tools">
+										<a href="#" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+									<div>
+										
+										<ul class="custom-list mb-0">
+											
+											<li><strong>Node</strong></li>
+											<li><strong>Npm</strong></li>
+											<li><strong>Angular cli</strong></li>
+											<li><strong>Text editor as per your wish</strong></li>
+										</ul>
+										
+									</div>
+								</div>
+							</div>
+						</section>
+						
+						
+						
+						<section class="section-block hentry" id="features">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">Features<a class="anchor-link ms-2" href="#features"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="#" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p class="mb-0">
+										Built with Angular Standalone 20x<br>
+										Created using Bootstrap v5.3.7<br>
+										Easy customizations with extensive use of SCSS variables<br>
+										Lazy Loading<br>
+										No Jquery<br>
+										Clean and Intuitive Design<br>
+										Feather icons<br>
+										Tables with search<br>
+										RXJS<br>
+										Dynamic header and sidebar<br>
+										Cross Browser Compatible<br>
+										Easy to Customize<br>
+										Clean & Well Commented Codes<br>
+										Compatible to all Mobile Devices<br>
+										Developer Friendly<br>
+										Light & Dark Modes<br>
+										RTL & LTR Support<br>
+										Error pages included<br>
+										UI Components included<br>
+										And Many More...<br>
+									</p>
+								</div>
+								
+							</div>
+						</section>
+						<!-- File Structure -->
+						<section class="section-block hentry" id="file_structure">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">File Structure<a class="anchor-link ms-2" href="#structure"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="#" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+									<div class="file-structure">
+										<ul class="main-structure">
+											<li>
+												<a href="javascript:void(0)" class="file-drop">
+													<i class="fa-solid fa-chevron-up"></i><i class="fa-regular fa-folder-open"></i>Template
+												</a>
+												<ul class="file-sub">
+													<li>
+														<a href="javascript:void(0)" class="file-drop">
+															<i class="fa-solid fa-chevron-up"></i><i class="fa-regular fa-folder-closed"></i>Src
+														</a>
+														<ul class="file-hide">
+															<li>
+																<a href="javascript:void(0)" class="file-drop">
+																	<i class="fa-solid fa-chevron-up"></i><i class="fa-regular fa-folder-closed"></i>app
+																</a>
+																
+																<ul class="file-hide">
+																	<li><i class="fa-regular fa-file-lines"></i>file.css</li>
+																	<li><i class="fa-regular fa-file-lines"></i>file2.css</li>
+																	<li><i class="fa-regular fa-file-lines"></i>file3.css</li>
+																</ul>
+															</li>
+															<li>
+																<a href="javascript:void(0)" class="file-drop">
+																	<i class="fa-solid fa-chevron-up"></i><i class="fa-regular fa-folder-closed"></i>assets
+																</a>
+															</li>
+														</ul>
+														<ul class="file-hide">
+															<li><i class="fa-regular fa-file-lines"></i>favicon.ico</li>
+															<li><i class="fa-regular fa-file-lines"></i>index.html</li>
+															<li><i class="fa-regular fa-file-lines"></i>main.ts</li>
+															<li><i class="fa-regular fa-file-lines"></i>style.scss</li>
+														</ul>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>.editorconfig </a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>angular.json </a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>browserslistrc </a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>karma.conf.js </a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>package.json </a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>package-lock.json</a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>README.md</a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>tsconfig.app.json </a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>tsconfig.json</a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>tsconfig.spec.json</a>
+													</li>
+													<li>
+														<a href="javascript:void(0)"><i class="fa-regular fa-file-lines"></i>tsconfig.json</a>
+													</li>
+												</ul>
+
+											</li>
+											
+											
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="section-block hentry" id="local_server">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">Installation Guide<a class="anchor-link ms-2" href="#local_server"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="javascript:void(0)" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+									<div class="server">
+									    <h5>Node.js and NPM:</h5>
+										<ul class="custom-list list-disc mb-4">
+											<li>If NodeJS is not installed then download it from below link and NPM comes bundled with Node.js</li>
+											<li class="">
+												<p class="mb-0"> https://nodejs.org/</p>
+												<p class="mb-0"> node version (^24.0.0)</p>
+											</li>
+										</ul>
+										<hr>
+									    <h5>Angular-cli:</h5>
+										<ul class="custom-list list-disc mb-4">
+											<li>You can install angular-cli by executing from your command below comand</li>
+											<li class="">
+												<pre class="language-javascript" tabindex="0"><code class="language-javascript"> npm install -g @angular/cli@20</code></pre>
+											</li>
+										</ul>
+										<h5>Update it to the latest Angular CLI:</h5>
+										<ul class="custom-list list-disc mb-4">
+											<li>IF you already installed,uninstalled it and again install the angular cli.</li>
+											<li class="">
+												<pre class="language-javascript" tabindex="0"><code class="language-javascript"> npm uninstall -g @angular/cli</code></pre>
+											</li>
+											<li class="">
+												<pre class="language-javascript" tabindex="0"><code class="language-javascript"> npm install -g @angular/cli@20</code></pre>
+											</li>
+										</ul>					
+										<h5>NPM Packages:</h5>
+										<div class="custom-list mb-4">
+											<p>Before proceding you'll need to install npm packages. You can do this by running npm install from the root of your project to install all the necessary dependencies.<p>
+												<pre class="language-javascript" tabindex="0"><code class="language-javascript"> npm install</code></pre>
+										</div>
+										
+										<h5>Development Server:</h5>
+										<div class="custom-list mb-4">
+											<p>Run ng serve for a dev server. Navigate to localhost:4200/. The app will autometically reload if you change any of the source files.<p>
+												<pre class="language-javascript" tabindex="0"><code class="language-javascript">ng serve</code></pre>
+										</div>
+										
+										<h5>Build Project:</h5>
+										<div class="custom-list mb-4">
+											<p>Run the project as per below command. The build artifacts will be stored in the dist/ directory. Use the --prod flag for a production build.<p>
+												<pre class="language-javascript" tabindex="0"><code class="language-javascript">ng build</code></pre>
+										</div>
+										
+										<h5>More Help</h5>
+										<div class="custom-list mb-0">
+											<p>To get more help on the angular-cli use below command or go check out the Angular-CLI README.<p>
+												<pre class="language-javascript mb-0" tabindex="0"><code class="language-javascript">ng build</code></pre>
+										</div>
+																				
+									</div>
+								</div>
+							</div>
+						</section>
+						
+						<!-- RTL template -->
+							<section class="section-block hentry" id="rtl_mode">
+								<div class="custom-card">
+									<div class="card-header">
+										<h4 class="card-title">RTL Version<a class="anchor-link ms-2" href="#rtl_mode"><i class="fa-solid fa-hashtag"></i></a></h4>
+										<div class="header-tools">
+											<a href="#" class="card-maximize">
+												<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+										</div>
+									</div>
+									<div class="card-body">
+										<div class="rtl-content">
+											<ul>
+												<li>
+													<h6>Step:1 Add Bootstarp RTL</h6> 
+													<img src="assets/img/angular/rtl.png" width="800px" alt="pic" > 
+													<p class="mt-2">Please remove marked style in angular.json file and replace it with below style </p> 
+													<div class="mb-3">
+														<pre class="language-php"><code>"node_modules/bootstrap/dist/css/bootstrap.rtl.min.css"</code></pre>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<h6>Step 2: Applying RTL Direction to html</h6>
+										<img src="assets/img/angular/rtl2.png" width="800px" alt="pic" > 
+										<p class="dir-content"><strong> Explanation:</strong> The direction: rtl;
+											property is applied to the "html" element.This
+											ensures that the entire content of the page flows from right to left.</p>
+										
+										
+									</div>
+										</div>
+								
+							</section>
+							<!-- /RTL template -->
+						
+												<!-- Dark template -->
+												<section class="section-block hentry" id="dark_mode">
+													<div class="custom-card">
+														<div class="card-header">
+															<h4 class="card-title">Dark Mode<a class="anchor-link ms-2" href="#dark_mode"><i class="fa-solid fa-hashtag"></i></a></h4>
+															<div class="header-tools">
+																<a href="#" class="card-maximize">
+																	<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+															</div>
+														</div>
+														<div class="card-body">
+															<div class="server">
+																<div class="custom-list mb-4">
+																	<h6 class="mb-2">Path: <span>src/app/shared/services/side-bar/side-bar.service.ts</span></h6>
+																	<img src="assets/img/angular/dark-mode.png" class="img-fluid" alt="dark">
+																	<p class="mt-2">You can change a initialState with value of <b>"dark"</b> or <b>"light"</b></p>
+																	<pre class="language-javascript" tabindex="0"><code class="language-javascript">localStorage.getItem('themeColor') || 'light'</code></pre>
+															</div>
+														</div>
+													</div>
+														</div>
+													
+												</section>
+												<!-- /RTL template -->
+						
+												<!-- Change Logo -->
+												<section class="section-block hentry" id="change_logo">
+													<div class="custom-card">
+														<div class="card-header">
+															<h4 class="card-title">How to change Logo ? <a class="anchor-link ms-2" href="#change_logo"><i class="fa-solid fa-hashtag"></i></a></h4>
+															<div class="header-tools">
+																<a href="#" class="card-maximize">
+																	<span class="feather-icon" title="Full Screen"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg></span></a>
+															</div>
+														</div>
+														<div class="card-body">
+															<div class="file-structure">
+																<p>You can change the logo or replace it from img folder or you can edit it from header-one.component.html</p>
+																<span class="text-dark"><strong>Path:</strong> <code>src/app/core/common-components/header-one/header-one.component.html</code></span>
+																
+						<pre class=" language-markup mb-0"><code class="language-markup">&lt;div class="header"&gt;
+							&lt;a [routerLink]="routes.index" class="logo logo-normal"&gt;
+								&lt;img src="assets/img/logo.svg alt="logo"&gt;
+							&lt;a&gt;
+						&lt;/div&gt; </code></pre>
+															</div>
+														</div>
+													</div>
+												</section>
+												<!-- /Change Logo -->
+						
+												<!-- Change Font -->
+												<section class="section-block hentry" id="change_font">
+													<div class="custom-card">
+														<div class="card-header">
+															<h4 class="card-title">How to change Font ? <a class="anchor-link ms-2" href="#change_font"><i class="fa-solid fa-hashtag"></i></a></h4>
+															<div class="header-tools">
+																<a href="#" class="card-maximize">
+																	<span class="feather-icon" title="Full Screen"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg></span></a>
+															</div>
+														</div>
+														<div class="card-body">
+															<div class="file-structure">
+																<p>You can change the font you can edit it from Scss file.</p>
+																<span class="text-dark"><strong>Path:</strong> <code>src/assets/scss/theme-variables.scss</code></span>
+																
+																
+						<pre class=" language-javascript"><code class="language-javascript">@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');</code></pre>
+						<p>
+							You can choose a font style from 
+							<a href="https://fonts.google.com/" target="_blank">Google Fonts</a>, 
+							and replace the existing link in your project with the one corresponding to your selected font.
+						  </p>
+						  <p>
+							To apply the new font, update the <code>font-family</code> in the <code>body</code> selector within the following SCSS file:  
+							<span class="text-dark ms-3"><strong>Path:</strong> <code>src/assets/scss/variables.scss</code></span>
+						  </p>
+						<pre class=" language-javascript mb-0"><code class="language-javascript">
+$font-family-sans-serif:      "Inter", sans-serif;
+						</code></pre>
+															</div>
+														</div>
+													</div>
+												</section>
+												<!-- /Change Font -->
+						
+												<!-- Change Background Color -->
+												<section class="section-block hentry" id="change_color">
+													<div class="custom-card">
+														<div class="card-header">
+															<h4 class="card-title">How to change Header Background Color ? <a class="anchor-link ms-2" href="#change_color"><i class="fa-solid fa-hashtag"></i></a></h4>
+															<div class="header-tools">
+																<a href="#" class="card-maximize">
+																	<span class="feather-icon" title="Full Screen"><svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-maximize"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg></span></a>
+															</div>
+														</div>
+														<div class="card-body">
+															<div class="file-structure">
+																<p>You can change the header background color in style.css as per your wish</p>
+																
+						<pre class=" language-javascript mb-0"><code class=" language-javascript">
+							.header {
+								background: #fff;
+								left: 0;
+								position: fixed;
+								right: 0;
+								top: 0;
+								height: 60px;
+							}
+								</code></pre>
+															</div>
+														</div>
+													</div>
+												</section>
+												<!-- /Change Background Color -->
+						
+												<!-- Typography -->
+												<section class="section-block hentry" id="typography">
+													<div class="custom-card">
+														<div class="card-header">
+															<h4 class="card-title">Typography<a class="anchor-link ms-2" href="#typography"><i class="fa-solid fa-hashtag"></i></a></h4>
+															<div class="header-tools">
+																<a href="#" class="card-maximize">
+																	<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+															</div>
+														</div>
+														<div class="card-body">
+															<div class="server typography">
+																<h1>h1. Bootstrap heading</h1>
+																<h2>h2. Bootstrap heading</h2>
+																<h3>h3. Bootstrap heading</h3>
+																<h4>h4. Bootstrap heading</h4>
+																<h5>h5. Bootstrap heading</h5>
+																<h6>h6. Bootstrap heading</h6>
+															</div>
+															</div>
+														</div>
+													
+												</section>
+												<!-- /Typography -->
+						<section class="section-block hentry" id="faq">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">FAQs<a class="anchor-link ms-2" href="#faq"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="javascript:void(0)" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+	<div class="accordion" id="faq_list">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Can I use this platform on multiple domains?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#faq_list">
+      <div class="accordion-body">
+         With one purchase code you can use it on one domain name. You need to get new license for every new domain name, please check <a href="https://themeforest.net/licenses/standard" target="_blank">Envato Help Page</a> for more information about licenses. </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        I got a problem, How can I get support?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faq_list">
+      <div class="accordion-body">
+         If you need support, or if you're facing any problems, please contact us via <a href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503/support" target="_blank">Envato Support</a>
+													<br> Please note that our respond can take up to 2 business days.
+												</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        What does the support include?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faq_list">
+      <div class="accordion-body">
+		<ul class="list-disc">
+			<li>Availability to answer questions, Answering technical questions about item’s features, Assistance with reported bugs and issues, Help with included 3rd party assets.</li>
+			<li>Any customization request will be ignored.</li>
+			<li>Please make sure to read more about the <a href="https://themeforest.net/page/item_support_policy" target="_blank">support policy</a>. </li>
+		</ul>
+      </div>
+    </div>
+  </div>
+</div>
+								</div>
+							</div>
+						</section>
+						
+						<section class="section-block page-block hentry" id="support">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">Support<a class="anchor-link ms-2" href="#support"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="javascript:void(0)" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+
+							<p>If this documentation does not address your questions, please feel free to contact us via email at <a class="btn btn-primary btn-sm" target="_blank" href="https://themeforest.net/item/preclinic-medical-hospital-bootstrap-4-admin-template/23123503/support">Item Support Page</a>
+							</p>
+							<p>We are in the GMT+5:30 time zone and typically respond to inquiries on weekdays within 12-24 hours. Please note that in rare cases, the response time may extend to 48 hours, especially during holiday seasons.</p>
+							<div class="alert alert-warning mb-4">
+								<span class="badge rounded-pill text-bg-danger text-uppercase">Note:</span> 
+								<p class="mb-0">We strive to offer top-notch support, but it's only available to verified buyers and for template-related issues such as bugs and errors. Custom changes and third-party module setups are not covered.</p>
+							</div>
+							<h5>Don’t forget to Rate Preclinic! <i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+								<i class="fas fa-star text-warning"></i>
+							</h5>
+							<div class="alert alert-success mb-0">Please take a moment to rate our product on themeforest. Your support means a lot to us. Just go to your <strong>themeforest Profile > Downloads Tab</strong>, and you can leave a review for our script. Thank you!</div>
+						
+								</div>
+							</div>
+						</section>
+						
+						<section class="section-block page-block hentry" id="license">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">License<a class="anchor-link ms-2" href="#license"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="javascript:void(0)" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+									<p>Preclinic is developed by <a href="https://themeforest.net/user/dreamstechnologies/portfolio" target="_blank">Dreams Technologies</a> and is available under both <a href="https://themeforest.net/licenses/standard" target="_blank">Envato Extended &amp; Regular License</a> options.</p>
+									<h6>Regular License</h6>
+									<p>Usage by either yourself or a single client is permitted for a single end product, provided that end users are not subject to any charges.</p>
+									<h6>Extended License</h6>
+									<p>For use by you or one client in a single end product for which end users may be charged.</p>
+									<p><a href="https://themeforest.net/licenses/faq#main-differences-licenses-a" target="_blank">What are the main differences between the Regular License and the Extended License?</a></p>
+									<div class="alert alert-info mb-0">
+										<span class="badge rounded-pill text-bg-danger text-uppercase">Note</span>
+										<p class="mb-0">If you operate as a freelancer or agency, you have the option to acquire the Extended License, which permits you to utilize the item across multiple projects on behalf of your clients.</p>
+									</div>
+								</div>
+							</div>
+						</section>
+						<!-- Credits -->
+						<section class="section-block hentry" id="credits">
+							<div class="custom-card">
+								<div class="card-header">
+									<h4 class="card-title">Credits<a class="anchor-link ms-2" href="#credits"><i class="fa-solid fa-hashtag"></i></a></h4>
+									<div class="header-tools">
+										<a href="#" class="card-maximize">
+											<span class="feather-icon" title="Full Screen"><i data-feather="maximize"></i></span></a>
+									</div>
+								</div>
+								<div class="card-body">
+										<div class="table-responsive ref-table">
+											<table class="table table-borderless">
+												<thead class="thead-light">
+													<tr>
+														<th class="w-20">Plugin Name</th>
+														<th class="w-80">URL</th>
+													</tr>
+												</thead>
+												<tbody>
+													<tr>
+														<td><span class="text-high-em">Bootstrap</span></td>
+														<td><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/" class="link-high-em" target="_blank">https://getbootstrap.com/docs/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Feather Icons</span></td>
+														<td><a href="https://feathericons.com/" class="link-high-em" target="_blank">https://feathericons.com/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Apex Chat</span></td>
+														<td><a href="https://apexcharts.com/angular-chart-demos/" class="link-high-em" target="_blank">http://demo.amitjakhu.com/dripicons/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Ngx Bootstrap</span></td>
+														<td><a href="https://www.npmjs.com/package/ngx-bootstrap" class="link-high-em" target="_blank">https://fonts.google.com/icons?selected=Material+Icons</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Fontawesome</span></td>
+														<td><a href="https://fontawesome.com/" class="link-high-em" target="_blank">https://fontawesome.com/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Ngx Counter</span></td>
+														<td><a href="https://www.npmjs.com/package/ngx-countup" class="link-high-em" target="_blank">https://remixicon.com/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Angular Material</span></td>
+														<td><a href="https://material.angular.io/" class="link-high-em" target="_blank">https://github.com/twitter/twemoji</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Circle Progress</span></td>
+														<td><a href="https://www.npmjs.com/package/ng-circle-progress" class="link-high-em" target="_blank">https://icons.getbootstrap.com/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">lightgallery</span></td>
+														<td><a href="https://flagicons.lipis.dev/" class="link-high-em" target="_blank">https://flagicons.lipis.dev/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Prime NG</span></td>
+														<td><a href="https://primeng.org/" class="link-high-em" target="_blank">https://primeng.org/</a></td>
+													</tr>
+													<tr>
+														<td><span class="text-high-em">Ngx Scrollbar</span></td>
+														<td><a href="https://www.npmjs.com/package/ngx-scrollbar" class="link-high-em" target="_blank">https://github.com/Grsmto/simplebar</a></td>
+													</tr>
+													<tr>
+													<td><span class="text-high-em">NgxMatIntlTelInput</span></td>
+													<td><a href="https://www.npmjs.com/package/ngx-mat-intl-tel-input" class="link-high-em"
+															target="_blank">https://www.npmjs.com/package/ngx-mat-intl-tel-input</a></td>
+												</tr>
+												<tr>
+													<td><span class="text-high-em">NgxMask</span></td>
+													<td><a href="https://www.npmjs.com/package/ngx-mask" class="link-high-em"
+															target="_blank">https://www.npmjs.com/package/ngx-mask</a></td>
+												</tr>
+												</tbody>
+											</table>
+										</div>
+								</div>
+							</div>
+						</section>
+						
+						<section class="section-block page-block hentry" id="customwork">
+							<div class="custom-card bg-gr-1 text-center">
+								<div class="card-body">
+									<h4 class="card-title">Do you need a customized application for your business?</h4>
+									<p>If you need a customized application for your business depends on your specific requirements and goals, Please contact us.</p>
+									<p>Customization can be the key to success, ensuring your project perfectly aligns with your unique goals and requirements.</p>
+									<div class="hire">
+										<h6>Don't Miss Out on the Benefits of Customization!</h6>
+										<p>Unlock the potential of your project. It's time to ensure that your project isn't just another cookie-cutter solution but a truly unique and effective one.</p>
+										<p>Discover how customization can make a difference in your project's success. Let's create a solution that's as unique as your vision!</p>
+										<ul>
+											<li>We'll tailor the application to meet your specific needs and preferences.</li>
+											<li>We will upload your website to the server and ensure it is live.</li>
+										</ul>
+										<div class="contact-btn mb-3">
+											<a target="_blank" href="https://calendly.com/dreamstechnologies" class="btn btn-primary me-2"><i class="fa-solid fa-calendar-days me-2"></i>Book an Appointment</a>
+											<a href="mailto:support@dreamstechnologies.com" class="btn btn-primary"><i class="fa-solid fa-calendar-days me-2"></i>Get a Free Quote</a>
+										</div>
+										<div class="contact-link">
+											<a href="https://join.skype.com/invite/KqfsfMbmDu9a" class="px-2 link-body-emphasis"><i class="fa-brands fa-skype me-1"></i>dreamstechnologies</a>
+											<a target="_blank" href="mailto:business@dreamstechnologies.com" class="px-2 link-body-emphasis"><i class="fa fa-envelope me-1"></i> business@dreamstechnologies.com</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						
+						<section class="custom-card page-block hentry  min-h-100" id="thanks">
+							<div class="card-body">
+								<div class="thanks">
+									<img src="assets/img/banners/ratings.svg" alt="thanks">
+									<h2>Thank You</h2>
+									<p>Thank you once again for downloading <strong>Preclinic</strong>.<br>
+									We hope you're enjoying your experience, and we kindly request that you take a moment to share your valuable review and rating with us.</p>
+									<strong>Review Link:</strong><a href="https://themeforest.net/downloads" class="text-primary fw-bold fs-5" target="_blank">https://themeforest.net/downloads</a>
+								</div>
+							</div>
+						</section>
+					</div>
+				</div>
+			</div><footer class="content-footer footer">
+  <div class="container-fluid d-flex flex-wrap justify-content-between align-items-center text-center py-3">
+    <div>
+      &copy; 2015- <script>
+      document.write(new Date().getFullYear())
+
+      </script>
+      
+      <a href="#" class="footer-text fw-medium text-primary" target="_blank">Dreams Technologies</a>
+      
+    </div>
+    <div class="social-icons">
+      <a href="#" class="footer-link me-2" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#" class="footer-link me-2" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#" class="footer-link me-2" target="_blank"><i class="fa-brands fa-github"></i></a>
+      <a href="#" class="footer-link me-2" target="_blank"><i class="fa-brands fa-dribbble"></i></a>
+      <a href="#" class="footer-link" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+		</div>	
+
+	</main>
+
+<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/prism.js"></script>
+<script src="assets/js/feather.min.js"></script>
+<script src="assets/js/jquery.zoom.min.js"></script>
+<script src="assets/js/jquery.magnific-popup.min.js"></script>
+<script src="assets/js/isotope.pkgd.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+
+
+</html>
