@@ -390,7 +390,7 @@ const KanbanView = () => {
                       <DragDropContext onDragEnd={onDragEnd}>
                         <div className="d-flex align-items-start overflow-auto project-status pb-4">
                           {Object.entries(columns).map(([columnId, column]) => (
-                            <div className="p-3 rounded bg-light border w-100 me-3">
+                            <div key={columnId} className="p-3 rounded bg-light border w-100 me-3">
                               <Droppable
                                 key={columnId}
                                 droppableId={columnId}
@@ -685,7 +685,7 @@ const KanbanView = () => {
                         <div className="d-flex align-items-start overflow-auto project-status pb-4">
                           {Object.entries(columns2).map(
                             ([columnId, column2]) => (
-                              <div className="p-3 rounded bg-light border w-100 me-3">
+                              <div key={columnId} className="p-3 rounded bg-light border w-100 me-3">
                                 <Droppable
                                   key={columnId}
                                   droppableId={columnId}
@@ -985,7 +985,7 @@ const KanbanView = () => {
                         <div className="d-flex align-items-start overflow-auto project-status pb-4">
                           {Object.entries(columns3).map(
                             ([columnId, column3]) => (
-                              <div className="p-3 rounded bg-light border w-100 me-3">
+                              <div key={columnId} className="p-3 rounded bg-light border w-100 me-3">
                                 <Droppable
                                   key={columnId}
                                   droppableId={columnId}
@@ -1278,7 +1278,7 @@ const KanbanView = () => {
                         <div className="d-flex align-items-start overflow-auto project-status pb-4">
                           {Object.entries(columns4).map(
                             ([columnId, column4]) => (
-                              <div className="p-3 rounded bg-light border w-100 me-3">
+                              <div key={columnId} className="p-3 rounded bg-light border w-100 me-3">
                                 <Droppable
                                   key={columnId}
                                   droppableId={columnId}
