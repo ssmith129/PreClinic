@@ -70,7 +70,7 @@ const PredefinedDatePicker: React.FC = () => {
 
   return (
     <div>
-      <Dropdown overlay={menu} trigger={['click']}>
+      <Dropdown menu={{ items: menu.props.items, onClick: handleMenuClick }} trigger={['click']}>
         <Input
           readOnly
           value={displayValue}
