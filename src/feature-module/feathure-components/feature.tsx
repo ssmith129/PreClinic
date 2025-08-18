@@ -1,7 +1,6 @@
 import { useSelector } from "react-redux";
 import { Outlet, useLocation } from "react-router";
 import Header from "../../core/common/header/header";
-import ThemeSettings from "../../core/common/theme-settings";
 import Sidebar from "../../core/common/sidebar/sidebar";
 import SidebarTwo from "../../core/common/sidebar-two/sidebarTwo";
 import Sidebarthree from "../../core/common/sidebarthree/sidebarthree";
