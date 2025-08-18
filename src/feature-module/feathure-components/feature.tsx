@@ -52,7 +52,6 @@ const Feature = () => {
             <Sidebar />
           )}
 
-          <ThemeSettings />
           <Outlet />
         </div>
         <div
