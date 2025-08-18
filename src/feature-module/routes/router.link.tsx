@@ -248,18 +248,24 @@ export const publicRoutes = [
   {
     path: "/",
     name: "Root",
-    element: <Navigate to={routes.dashboard} replace />,
+    element: <Navigate to="/react/template/dashboard" replace />,
     route: Route,
   },
   {
     path: "/react/template/",
     name: "Template Root",
-    element: <Navigate to={routes.dashboard} replace />,
+    element: <Navigate to="/react/template/dashboard" replace />,
+    route: Route,
+  },
+  {
+    path: "/react/template",
+    name: "Template Base",
+    element: <Navigate to="/react/template/dashboard" replace />,
     route: Route,
   },
   {
     path: "*", // ✅ Catch-all route for 404s
-    element: <Navigate to={routes.dashboard} replace />,
+    element: <Navigate to="/react/template/dashboard" replace />,
     route: Route,
   },
   {
