@@ -1,4 +1,3 @@
-
 import EmailVerificationBasic from "../components/auth/email-verification/emailVerificationBasic";
 import EmailVerificationCover from "../components/auth/email-verification/emailVerificationCover";
 import EmailVerificationIllustration from "../components/auth/email-verification/emailVerificationIllustration";
@@ -247,14 +246,20 @@ const routes = all_routes;
 
 export const publicRoutes = [
   {
-    path: "/react/template/",
+    path: "/",
     name: "Root",
-    element: <Navigate to={routes.dashboard} />,
+    element: <Navigate to={routes.dashboard} replace />,
+    route: Route,
+  },
+  {
+    path: "/react/template/",
+    name: "Template Root",
+    element: <Navigate to={routes.dashboard} replace />,
     route: Route,
   },
   {
     path: "*", // ✅ Catch-all route for 404s
-    element: <Navigate to={routes.dashboard} />,
+    element: <Navigate to={routes.dashboard} replace />,
     route: Route,
   },
   {
