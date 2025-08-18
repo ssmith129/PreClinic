@@ -7,7 +7,15 @@
   ],
   "routes": [
     {
+      "src": "/$",
+      "dest": "/index.html"
+    },
+    {
       "src": "/react/template/$",
+      "dest": "/index.html"
+    },
+    {
+      "src": "/react/template/dashboard$",
       "dest": "/index.html"
     },
     {
