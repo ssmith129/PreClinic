@@ -15,6 +15,10 @@
       if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
         window.location.replace('/react/template/dashboard');
       }
+      // Handle direct access to base path
+      if (window.location.pathname === '/react/template' || window.location.pathname === '/react/template/') {
+        window.location.replace('/react/template/dashboard');
+      }
     </script>
   </head>
   <body>
