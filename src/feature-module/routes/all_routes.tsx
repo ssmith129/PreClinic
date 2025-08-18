@@ -1,7 +1,7 @@
 export const all_routes = {
   //Auth routes
   login: "/login",
-  loginCover: "/login-cover",
+  loginCover: "/react/template/login-cover",
   loginillustration: "/login-illustration",
   loginbasic: "/login-basic",
   registercover: "/register-cover",
@@ -27,7 +27,7 @@ export const all_routes = {
   successBasic: "/success-basic",
 
   //Dashboard routes
-  dashboard: "/dashboard",
+  dashboard: "/react/template/dashboard",
   doctordashboard: "/doctor/doctor-dashboard",
   patientdashboard: "/patient/patient-dashboard",
 
