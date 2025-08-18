@@ -1786,7 +1786,7 @@ const Dashboard = () => {
           <p className="text-dark mb-0">
             2025 ©
             <Link to="#" className="link-primary">
-              Preclinic
+              Medico
             </Link>
             , All Rights Reserved
           </p>
