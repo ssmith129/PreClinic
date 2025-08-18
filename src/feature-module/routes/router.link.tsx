@@ -252,12 +252,6 @@ export const publicRoutes = [
     route: Route,
   },
   {
-    path: "/react/template/",
-    name: "Template Root",
-    element: <Navigate to={routes.dashboard} replace />,
-    route: Route,
-  },
-  {
     path: "*", // ✅ Catch-all route for 404s
     element: <Navigate to={routes.dashboard} replace />,
     route: Route,

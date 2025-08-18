@@ -1,22 +1,16 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/react/template/(.*)",
       "destination": "/index.html"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/react/template/$",
-      "dest": "/index.html"
     },
     {
-      "src": "/react/template/(.*)",
-      "dest": "/index.html"
+      "source": "/react/template",
+      "destination": "/index.html"
     },
     {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/",
+      "destination": "/index.html"
     }
   ]
 }
