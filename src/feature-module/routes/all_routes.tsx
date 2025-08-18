@@ -1,7 +1,7 @@
 export const all_routes = {
   //Auth routes
   login: "/login",
-  loginCover: "/login-cover",
+  loginCover: "/react/template/login-cover",
   loginillustration: "/login-illustration",
   loginbasic: "/login-basic",
   registercover: "/register-cover",
