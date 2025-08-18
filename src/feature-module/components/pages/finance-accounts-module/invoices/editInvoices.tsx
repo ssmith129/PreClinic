@@ -495,7 +495,7 @@ const EditInvoices = () => {
                               </td>
                             </tr>
                           ))}
-                          <tr>
+                          <tr key="add-invoice-row">
                             <td>
                               <Link
                                 to="#"
