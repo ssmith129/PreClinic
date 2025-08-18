@@ -52,19 +52,14 @@ const PredefinedDatePicker: React.FC = () => {
     }
   };
 
-  const menu = (
-    <Menu
-      onClick={handleMenuClick}
-      items={[
-        ...Object.keys(predefinedRanges).map(label => ({
-          key: label,
-          label,
-        })),
-        { type: 'divider' },
-        { key: 'Custom Range', label: 'Custom Range' },
-      ]}
-    />
-  );
+  const menuItems = [
+    ...Object.keys(predefinedRanges).map(label => ({
+      key: label,
+      label,
+    })),
+    { type: 'divider' as const },
+    { key: 'Custom Range', label: 'Custom Range' },
+  ];
 
   const displayValue = `${dates[0].format(dateFormat)} - ${dates[1].format(dateFormat)}`;
 
