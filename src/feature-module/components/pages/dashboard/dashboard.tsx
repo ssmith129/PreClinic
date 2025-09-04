@@ -93,6 +93,12 @@ const Dashboard = () => {
             </div>
           </div>
           {/* End Page Header */}
+          {/* AI Inbox Triage */}
+          <div className="row mb-4">
+            <div className="col-12 col-xl-6">
+              {require('react').createElement(require('../../../../core/ai/InboxTriageCard').default)}
+            </div>
+          </div>
           {/* start row */}
           <div className="row">
             <div className="col-xl-3 col-md-6">
