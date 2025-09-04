@@ -19,6 +19,10 @@
       if (window.location.pathname === '/react/template' || window.location.pathname === '/react/template/') {
         window.location.replace('/react/template/dashboard');
       }
+      // Normalize direct /dashboard to include basename
+      if (window.location.pathname === '/dashboard') {
+        window.location.replace('/react/template/dashboard');
+      }
     </script>
   </head>
   <body>
