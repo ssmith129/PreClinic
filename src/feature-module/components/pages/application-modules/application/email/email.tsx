@@ -298,6 +298,9 @@ const Email = () => {
                           <i className="ti ti-point-filled text-primary mx-1" />
                           <span>56 Unread</span>
                         </div>
+                        <div className="mt-2">
+                          {require('react').createElement(require('../../../../../../core/ai/EmailAIEnhancer').default)}
+                        </div>
                       </div>
                       <div className="d-flex align-items-center">
                         <div className="position-relative input-icon me-3">
