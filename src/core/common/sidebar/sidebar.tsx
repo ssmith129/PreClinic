@@ -127,7 +127,7 @@ const Sidebar = () => {
           <div>
             {/* Logo Normal */}
             <Link to={all_routes.dashboard} className="logo logo-normal">
-              <ImageWithBasePath src="assets/img/logo.svg" alt="Logo" />
+              <ImageWithBasePath src="https://cdn.builder.io/api/v1/image/assets%2Fba69a23156414a589de97341511272c9%2F89ecfef17a13496fa3deda140c64d36f" alt="Logo" />
             </Link>
             {/* Logo Small */}
             <Link to={all_routes.dashboard} className="logo-small">
