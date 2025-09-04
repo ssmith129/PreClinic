@@ -212,10 +212,13 @@ const Header = () => {
                   <div className="p-2 border-bottom">
                     <div className="row align-items-center">
                       <div className="col">
-                        <h6 className="m-0 fs-16 fw-semibold">
-                          
-                          Notifications
-                        </h6>
+                        <h6 className="m-0 fs-16 fw-semibold">Notifications</h6>
+                        <div className="d-flex gap-2 mt-1">
+                          <span className="badge bg-danger"><i className="ti ti-alert-triangle-filled me-1"/>Critical</span>
+                          <span className="badge bg-warning"><i className="ti ti-exclamation-circle me-1"/>High</span>
+                          <span className="badge bg-info"><i className="ti ti-info-circle me-1"/>Medium</span>
+                          <span className="badge bg-success"><i className="ti ti-check-circle me-1"/>Low</span>
+                        </div>
                       </div>
                     </div>
                   </div>
