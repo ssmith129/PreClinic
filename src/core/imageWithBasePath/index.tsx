@@ -1,4 +1,3 @@
-
 import { img_path } from '../../environment';
 
 
@@ -12,8 +11,9 @@ interface Image {
 }
 
 const ImageWithBasePath = (props: Image) => {
-  // Combine the base path and the provided src to create the full image source URL
-  const fullSrc = `${img_path}${props.src}`;
+  // Build full image src; respect absolute and data URLs
+  const isAbsolute = /^(https?:)?\/\//.test(props.src) || props.src.startsWith("/") || props.src.startsWith("data:");
+  const fullSrc = isAbsolute ? props.src : `${img_path}${props.src}`;
   return (
     <img
       className={props.className}
