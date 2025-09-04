@@ -27,7 +27,7 @@ export const all_routes = {
   successBasic: "/success-basic",
 
   //Dashboard routes
-  dashboard: "/react/template/dashboard",
+  dashboard: "/dashboard",
   doctordashboard: "/doctor/doctor-dashboard",
   patientdashboard: "/patient/patient-dashboard",
 
