@@ -291,6 +291,7 @@ const DoctorsAppointmentDetails = () => {
               <div id="calendar">
                 <EventCalendar />
               </div>
+              {require('react').createElement(require('../../../../../core/ai/AppointmentInsights').default)}
             </div>
           </div>
           {/* end card */}
