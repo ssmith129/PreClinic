@@ -7,7 +7,7 @@ const store = configureStore({
   reducer: {
     sidebarSlice: sidebarSlice,
     theme: themeReducer,
-    ai: (await import('./aiSlice')).default,
+    ai: aiReducer,
   },
 });
 
