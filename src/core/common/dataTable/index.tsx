@@ -45,6 +45,7 @@ const Datatable: React.FC<DatatableProps> = ({
       columns={columns}
       rowHoverable={false}
       dataSource={filteredDataSource}
+      rowKey={(record, index) => record.id || record.key || index}
       pagination={{
         showSizeChanger: false,
         pageSize,
