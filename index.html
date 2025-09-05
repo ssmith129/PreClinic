@@ -10,20 +10,6 @@
     <meta name="author" content="Dreams Technologies" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.png" />
-    <script>
-      // Redirect to login-cover if on root path
-      if (window.location.pathname === '/' || window.location.pathname === '/index.html') {
-        window.location.replace('/react/template/login-cover');
-      }
-      // Handle direct access to base path
-      if (window.location.pathname === '/react/template' || window.location.pathname === '/react/template/') {
-        window.location.replace('/react/template/dashboard');
-      }
-      // Normalize direct /dashboard to include basename
-      if (window.location.pathname === '/dashboard') {
-        window.location.replace('/react/template/dashboard');
-      }
-    </script>
   </head>
   <body>
     <div id="root"></div>
