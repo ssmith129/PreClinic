@@ -1,5 +1,4 @@
-
-import {  Route, Routes } from "react-router";
+import { Route, Routes } from "react-router-dom";
 import { authRoutes, publicRoutes} from "./router.link";
 import AuthFeature from "../feathure-components/authFeature";
 import Feature from "../feathure-components/feature";
