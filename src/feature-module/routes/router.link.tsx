@@ -240,7 +240,7 @@ import UiRangeSlides from "../components/pages/ui-modules/ui-interface/ui-advanc
 import UiRating from "../components/pages/ui-modules/ui-interface/ui-advance/uiRating";
 import UiScrollbar from "../components/pages/ui-modules/ui-interface/ui-advance/uiScrollbar";
 import { all_routes } from "./all_routes";
-import { Navigate, Route } from "react-router";
+import { Navigate, Route } from "react-router-dom";
 
 const routes = all_routes;
 
